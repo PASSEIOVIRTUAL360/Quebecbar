@@ -1,457 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour hassounds="0" appversion="7.1.7" start="node1" apprev="20981">
-  <panorama id="node1" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+<tour hassounds="1" appversion="7.1.7" start="node1" apprev="20981">
+  <panorama hideabout="1" id="node1">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="127.265" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fov="5" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="127.265">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56816409" heading="127.265" title="Quebec bar" description="" copyright="" nodeid="node1" datetime="2025:04:28 18:43:56" source="" comment="" customnodeid="" longitude="-46.68906374" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node2}" target="$fwd" distance="3.66597" pan="3.15163"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node6}" target="$fwd" distance="3.54467" pan="-33.6182"/>
+    <userdata heading="127.265" source="" copyright="" tags="OFI" nodeid="node1" description="" longitude="-46.68906374" datetime="2025:04:28 18:43:56" title="Quebec bar" comment="" latitude="-23.56816409" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="3.15163" url="{node2}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.66597"/>
+      <hotspot pan="-33.6182" url="{node6}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.54467"/>
     </hotspots>
-    <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <media>
+      <sound nodechangekeep="1" level="1.000" pan="-1.000" mode="0" loop="1" startmutedmobile="0" ambientlevel="0.000" field="90.000" tilt="-1.000" id="_background" pansize="10.000" tiltsize="10.000">
+        <source mono="0" url="media/WhatsApp Audio 2025-05-14 at 02.24.38.mp3"/>
+      </sound>
+    </media>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node2" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node2">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-191.298" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-191.298">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56818258" heading="-191.298" title="Quebec bar" description="" copyright="" nodeid="node2" datetime="2025:04:28 18:43:56" source="" comment="" customnodeid="" longitude="-46.68903396" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node1}" target="$fwd" distance="3.66597" pan="-135.411"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node3}" target="$fwd" distance="3.33955" pan="-363.563"/>
+    <userdata heading="-191.298" source="" copyright="" tags="OFI" nodeid="node2" description="" longitude="-46.68903396" datetime="2025:04:28 18:43:56" title="Quebec bar" comment="" latitude="-23.56818258" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-135.411" url="{node1}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.66597"/>
+      <hotspot pan="-363.563" url="{node3}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.33955"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node3" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node3">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-184.254" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-184.254">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56821234" heading="-184.254" title="Quebec bar" description="" copyright="" nodeid="node3" datetime="2025:04:28 18:43:56" source="" comment="" customnodeid="" longitude="-46.68902955" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node2}" target="$fwd" distance="3.33955" pan="-176.519"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node4}" target="$fwd" distance="1.94846" pan="-363.205"/>
+    <userdata heading="-184.254" source="" copyright="" tags="OFI" nodeid="node3" description="" longitude="-46.68902955" datetime="2025:04:28 18:43:56" title="Quebec bar" comment="" latitude="-23.56821234" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-176.519" url="{node2}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.33955"/>
+      <hotspot pan="-363.205" url="{node4}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="1.94846"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node4" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node4">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-191.838" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-191.838">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56822986" heading="-191.838" title="Quebec bar" description="" copyright="" nodeid="node4" datetime="2025:04:28 18:43:56" source="" comment="" customnodeid="" longitude="-46.68902920" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node3}" target="$fwd" distance="1.94846" pan="-190.789"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node5}" target="$fwd" distance="3.96692" pan="-360.923"/>
+    <userdata heading="-191.838" source="" copyright="" tags="OFI" nodeid="node4" description="" longitude="-46.68902920" datetime="2025:04:28 18:43:56" title="Quebec bar" comment="" latitude="-23.56822986" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-190.789" url="{node3}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="1.94846"/>
+      <hotspot pan="-360.923" url="{node5}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.96692"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node5" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node5">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-178.298" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-178.298">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56826489" heading="-178.298" title="Quebec bar" description="" copyright="" nodeid="node5" datetime="2025:04:28 18:51:13" source="" comment="" customnodeid="" longitude="-46.68902183" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node4}" target="$fwd" distance="3.96692" pan="-167.383"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node10}" target="$fwd" distance="3.96595" pan="-320.049"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point03" skinid="ht_node" url="{node8}" target="$fwd" distance="2.33005" pan="-86.4657"/>
+    <userdata heading="-178.298" source="" copyright="" tags="OFI" nodeid="node5" description="" longitude="-46.68902183" datetime="2025:04:28 18:51:13" title="Quebec bar" comment="" latitude="-23.56826489" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-167.383" url="{node4}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.96692"/>
+      <hotspot pan="-320.049" url="{node10}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.96595"/>
+      <hotspot pan="-86.4657" url="{node8}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point03" distance="2.33005"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node6" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node6">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-190.114" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-190.114">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56819421" heading="-190.114" title="Quebec bar" description="" copyright="" nodeid="node6" datetime="2025:04:28 18:51:13" source="" comment="" customnodeid="" longitude="-46.68905235" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node7}" target="$fwd" distance="3.97492" pan="-365.673"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node1}" target="$fwd" distance="3.54467" pan="-170.997"/>
+    <userdata heading="-190.114" source="" copyright="" tags="OFI" nodeid="node6" description="" longitude="-46.68905235" datetime="2025:04:28 18:51:13" title="Quebec bar" comment="" latitude="-23.56819421" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-365.673" url="{node7}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.97492"/>
+      <hotspot pan="-170.997" url="{node1}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.54467"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node7" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node7">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-191.964" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-191.964">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56822985" heading="-191.964" title="Quebec bar" description="" copyright="" nodeid="node7" datetime="2025:04:28 18:51:13" source="" comment="" customnodeid="" longitude="-46.68904933" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node6}" target="$fwd" distance="3.97492" pan="-187.523"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node8}" target="$fwd" distance="3.99895" pan="-365.158"/>
+    <userdata heading="-191.964" source="" copyright="" tags="OFI" nodeid="node7" description="" longitude="-46.68904933" datetime="2025:04:28 18:51:13" title="Quebec bar" comment="" latitude="-23.56822985" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-187.523" url="{node6}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.97492"/>
+      <hotspot pan="-365.158" url="{node8}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.99895"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node8" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node8">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-190.981" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-190.981">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56826556" heading="-190.981" title="Quebec bar" description="" copyright="" nodeid="node8" datetime="2025:04:28 18:51:13" source="" comment="" customnodeid="" longitude="-46.68904468" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node7}" target="$fwd" distance="3.99895" pan="-184.175"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node9}" target="$fwd" distance="3.45853" pan="-354.336"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point03" skinid="ht_node" url="{node5}" target="$fwd" distance="2.33005" pan="-279.149"/>
+    <userdata heading="-190.981" source="" copyright="" tags="OFI" nodeid="node8" description="" longitude="-46.68904468" datetime="2025:04:28 18:51:13" title="Quebec bar" comment="" latitude="-23.56826556" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-184.175" url="{node7}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.99895"/>
+      <hotspot pan="-354.336" url="{node9}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.45853"/>
+      <hotspot pan="-279.149" url="{node5}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point03" distance="2.33005"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node9" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node9">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="183.576" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="183.576">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56829536" heading="183.576" title="Quebec bar" description="" copyright="" nodeid="node9" datetime="2025:04:28 18:58:08" source="" comment="" customnodeid="" longitude="-46.68903496" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node8}" target="$fwd" distance="3.45853" pan="200.221"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node10}" target="$fwd" distance="3.80329" pan="97.7004"/>
+    <userdata heading="183.576" source="" copyright="" tags="OFI" nodeid="node9" description="" longitude="-46.68903496" datetime="2025:04:28 18:58:08" title="Quebec bar" comment="" latitude="-23.56829536" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="200.221" url="{node8}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.45853"/>
+      <hotspot pan="97.7004" url="{node10}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.80329"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node10" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node10">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-179.12" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-179.12">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56829290" heading="-179.12" title="Quebec bar" description="" copyright="" nodeid="node10" datetime="2025:04:28 18:58:08" source="" comment="" customnodeid="" longitude="-46.68899774" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node9}" target="$fwd" distance="3.80329" pan="-84.9956"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node5}" target="$fwd" distance="3.96595" pan="-140.871"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point03" skinid="ht_node" url="{node11}" target="$fwd" distance="3.48613" pan="-267.438"/>
+    <userdata heading="-179.12" source="" copyright="" tags="OFI" nodeid="node10" description="" longitude="-46.68899774" datetime="2025:04:28 18:58:08" title="Quebec bar" comment="" latitude="-23.56829290" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-84.9956" url="{node9}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.80329"/>
+      <hotspot pan="-140.871" url="{node5}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.96595"/>
+      <hotspot pan="-267.438" url="{node11}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point03" distance="3.48613"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node11" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node11">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-536.732" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-536.732">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56829198" heading="-536.732" title="Quebec bar" description="" copyright="" nodeid="node11" datetime="2025:04:28 18:58:07" source="" comment="" customnodeid="" longitude="-46.68896355" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node10}" target="$fwd" distance="3.48613" pan="-445.05"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node12}" target="$fwd" distance="3.31914" pan="-713.775"/>
+    <userdata heading="-536.732" source="" copyright="" tags="OFI" nodeid="node11" description="" longitude="-46.68896355" datetime="2025:04:28 18:58:07" title="Quebec bar" comment="" latitude="-23.56829198" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-445.05" url="{node10}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.48613"/>
+      <hotspot pan="-713.775" url="{node12}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.31914"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node12" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node12">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-189.122" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-189.122">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56832179" heading="-189.122" title="Quebec bar" description="" copyright="" nodeid="node12" datetime="2025:04:28 18:58:07" source="" comment="" customnodeid="" longitude="-46.68896187" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node11}" target="$fwd" distance="3.31914" pan="-186.165"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node13}" target="$fwd" distance="3.79378" pan="-88.2077"/>
+    <userdata heading="-189.122" source="" copyright="" tags="OFI" nodeid="node12" description="" longitude="-46.68896187" datetime="2025:04:28 18:58:07" title="Quebec bar" comment="" latitude="-23.56832179" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-186.165" url="{node11}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.31914"/>
+      <hotspot pan="-88.2077" url="{node13}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.79378"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node13" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node13">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-197.477" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-197.477">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56832825" heading="-197.477" title="Quebec bar" description="" copyright="" nodeid="node13" datetime="2025:04:28 19:04:54" source="" comment="" customnodeid="" longitude="-46.68899842" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node12}" target="$fwd" distance="3.79378" pan="-276.563"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node14}" target="$fwd" distance="2.90261" pan="-209.721"/>
+    <userdata heading="-197.477" source="" copyright="" tags="OFI" nodeid="node13" description="" longitude="-46.68899842" datetime="2025:04:28 19:04:54" title="Quebec bar" comment="" latitude="-23.56832825" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-276.563" url="{node12}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.79378"/>
+      <hotspot pan="-209.721" url="{node14}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="2.90261"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node14" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node14">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-187.379" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-187.379">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56830274" heading="-187.379" title="Quebec bar" description="" copyright="" nodeid="node14" datetime="2025:04:28 19:04:54" source="" comment="" customnodeid="" longitude="-46.68899238" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node13}" target="$fwd" distance="2.90261" pan="-19.6234"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node15}" target="$fwd" distance="3.80001" pan="-175.978"/>
+    <userdata heading="-187.379" source="" copyright="" tags="OFI" nodeid="node14" description="" longitude="-46.68899238" datetime="2025:04:28 19:04:54" title="Quebec bar" comment="" latitude="-23.56830274" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-19.6234" url="{node13}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="2.90261"/>
+      <hotspot pan="-175.978" url="{node15}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.80001"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node15" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node15">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-8.10339" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-8.10339">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56826924" heading="-8.10339" title="Quebec bar" description="" copyright="" nodeid="node15" datetime="2025:04:28 19:05:50" source="" comment="" customnodeid="" longitude="-46.68899975" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node14}" target="$fwd" distance="3.80001" pan="-176.703"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point02" skinid="ht_node" url="{node16}" target="$fwd" distance="3.64355" pan="8.80936"/>
+    <userdata heading="-8.10339" source="" copyright="" tags="OFI" nodeid="node15" description="" longitude="-46.68899975" datetime="2025:04:28 19:05:50" title="Quebec bar" comment="" latitude="-23.56826924" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-176.703" url="{node14}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.80001"/>
+      <hotspot pan="8.80936" url="{node16}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point02" distance="3.64355"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
-  <panorama id="node16" hideabout="1">
-    <input leveltilesize="510" overlap="1" levelingpitch="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5000" levelbiashidpi="1.000" width="5000" levelbias="0.400" levelingroll="0">
-      <level height="5000" predecode="0" width="5000" preload="0"/>
-      <level height="2500" predecode="0" width="2500" preload="0"/>
-      <level height="1250" predecode="0" width="1250" preload="0"/>
-      <level height="625" predecode="0" width="625" preload="0"/>
-      <level height="312" predecode="1" width="312" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node16">
+    <input levelingpitch="0" width="5000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="5000" levelingroll="0" leveltilesize="510">
+      <level preload="0" predecode="0" height="5000" width="5000"/>
+      <level preload="0" predecode="0" height="2500" width="2500"/>
+      <level preload="0" predecode="0" height="1250" width="1250"/>
+      <level preload="0" predecode="0" height="625" width="625"/>
+      <level preload="1" predecode="1" height="312" width="312"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-21.914" fovmode="2">
-      <start tilt="0" projection="4" fov="100" pan="0"/>
-      <flyin tilt="0" projection="4" fov="100" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="140" scaletofit="1" fovstereographic="330" pan="360"/>
+    <view fovmode="2" pannorth="-21.914">
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="4" fov="100" pan="0" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" pan="360" fovstereographic="330" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata tags="OFI" latitude="-23.56823789" heading="-21.914" title="Quebec bar" description="" copyright="" nodeid="node16" datetime="2025:04:28 19:06:43" source="" comment="" customnodeid="" longitude="-46.68901015" author="" info=""/>
-    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
-      <label background="1" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textcolor="0x000000" borderalpha="1" wordwrap="1" height="20" textalpha="1" border="1" width="180" backgroundcolor="0xffffff" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="0" title="Quebec bar" description="" id="Point01" skinid="ht_node" url="{node15}" target="$fwd" distance="3.64355" pan="-185.001"/>
+    <userdata heading="-21.914" source="" copyright="" tags="OFI" nodeid="node16" description="" longitude="-46.68901015" datetime="2025:04:28 19:06:43" title="Quebec bar" comment="" latitude="-23.56823789" customnodeid="" author="" info=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label border="1" backgroundcolor="0xffffff" textalpha="1" width="180" background="1" backgroundalpha="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" textcolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot pan="-185.001" url="{node15}" description="" skinid="ht_node" title="Quebec bar" target="$fwd" tilt="0" id="Point01" distance="3.64355"/>
     </hotspots>
     <media/>
-    <transition type="mesh" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" blendtime="1" zoomin="7" zoomoutpause="1" zoomfov="40" blendcolor="0x000000" delay="none" enabled="1"/>
-    <autorotate startloaded="0" useanimation="0" speed="0.700" nodefilter="" horizonfromdefview="0" returntohorizon="0.000" delay="25.00" nodedelay="0.00" noderandom="1" enabled="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" dblclickfullscreen="0" speedwheel="1" contextvr="1" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1"/>
+    <transition zoomin="7" zoomspeed="2" type="mesh" zoomout="0" blendtime="1" zoomfov="40" enabled="1" blendcolor="0x000000" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomoutpause="1"/>
+    <autorotate speed="0.700" noderandom="1" horizonfromdefview="0" enabled="1" startloaded="0" useanimation="0" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="25.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedwheel="0" invertcontrol="1" contextfullscreen="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" hideabout="1" dblclickfullscreen="0" rubberband="0" contextprojections="0" invertwheel="0" contextvr="1" sensitivity="8"/>
   </panorama>
   <masternode>
-    <userdata tags="" comment="" title="" description="" copyright="" author=""/>
+    <userdata title="" comment="" copyright="" tags="" description="" author=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
